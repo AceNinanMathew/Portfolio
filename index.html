@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Manrope:wght@400;500;600;800&family=Montserrat:wght@400;700&family=Playwrite+CU:wght@100..400&family=Protest+Guerrilla&family=Sevillana&display=swap" rel="stylesheet">
+<!-- Animate.style -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<!-- AOS Animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <!-- Navigation Bar -->
+         <nav>
+            <!-- logo -->
+             <img class="logo" src="./images/logo.png" alt="no-images">
+             <!-- links -->
+              <ul>
+                <li class="list-items"><a href="" class="links">Home</a></li>
+                <li class="list-items"><a href="#about" class="links">About</a></li>
+                <li class="list-items"><a href="#skills" class="links">Skills</a></li>
+                <li class="list-items"><a href="#contact" class="links">Contact</a></li>
+              </ul>
+         </nav>
+         <!-- Home -->
+             <section id="home">
+            <!-- Content div -->
+             <div class="home-content">
+                <h1 class="animate__animated animate__backInLeft" id="username">I'm Ace <span id="mname">Ninan</span> Mathew</h1>
+                <p id="userDetails">This is my portfolio website to showcase my <br> skills and work experience in Web Development</p>
+                <a  download="resume" target="_blank" id="download" href="./Resume.pdf">Download CV</a>
+             </div>
+             <!-- Image div -->
+              <div class="home-image">
+                <img id="shape" class="img" src="./images/shape.png" alt="no-img">
+                <img  id="girl" class="img" src="./images/student.png" alt="no-img">
+              </div>
+             </section>
+             
+          <!-- About Me -->
+           <section id="about">
+            <!-- Heading Div -->
+            <div class="sectionHead">
+              <h2 class="mainHead">About Me</h2>
+              <span class="subHead">Introduction</span>
+            </div>
+          <!-- Content Div -->
+            <div class="aboutBody">
+              <!-- About-img Div -->
+              <div data-aos="fade-right" class="aboutImage">
+                <img class="img1" src="./images/aboutMe.png" alt="no-img">
+              </div>
+              <!-- About content div -->
+              <div class="aboutContent">
+                <p>As a recent Computer Science graduate (Class of 2024), I am excited to embark on my professional journey in the tech industry. My academic background has provided me with a solid foundation in data analytics, data mining, and machine learning, equipping me with the skills to analyze and interpret complex data sets effectively. I have also honed my web development skills through hands-on projects, mastering technologies such as HTML, CSS, JavaScript, Node.js, and MongoDB.</p>
+                <div class="informations">
+                  <div class="infobox">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Ace Ninan Mathew</span>
+                  </div>
+                  <div class="infobox">
+                    <i class="fa-solid fa-mobile"></i>
+                    <span>9544582622</span>
+                  </div>
+                  <div class="infobox">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>aceninanmathew@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </section>
+           <!-- Skills -->
+            <section id="skills">
+              <div class="sectionHead">
+                <h2 class="mainHead">Skills</h2>
+                <span class="subHead">My Skills</span>
+              </div>
+              <div class="skillContent">
+                <div class="progressbars">
+                  <div class="bars">
+                    <h3 class="barHead">HTML</h3>
+                    <span class="barPercent">89%</span>
+                    <div class="basebar"></div>
+                    <div class="basebar htmlbar" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"></div>
+                  </div>
+                  <div class="bars">
+                    <h3 class="barHead">CSS</h3>
+                    <span class="barPercent">84%</span>
+                    <div class="basebar"></div>
+                    <div class="basebar cssbar" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"></div>
+                  </div>
+                  <div class="bars">
+                    <h3 class="barHead">JavaScript</h3>
+                    <span class="barPercent">80%</span>
+                    <div class="basebar"></div>
+                    <div class="basebar jsbar" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"></div>
+                  </div>
+                  <div class="bars">
+                    <h3 class="barHead">C</h3>
+                    <span class="barPercent">92%</span>
+                    <div class="basebar"></div>
+                    <div class="basebar cbar" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"></div>
+                  </div>
+                </div>
+                <div data-aos="fade-left" class="skillImage">
+                  <img class="mySkill" src="./images/skills.jpg" alt="no-img">
+                </div>
+              </div>
+            </section>
+            <!-- Contact -->
+             <section id="contact">
+              <div class="sectionHead">
+                <h2 class="mainHead">Contact</h2>
+                <span class="subHead">My Contacts</span>
+              </div>
+              <div class="iconCollections">
+                <!-- linkedin -->
+                 <div class="icon">
+                  <a href="https://www.linkedin.com/in/ace-ninan-mathew-6406a9202/" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a>
+                 </div>
+                 <div class="icon">
+                  <a href="https://github.com/AceNinanMathew" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                 </div>
+                 <div class="icon">
+                  <a href="https://www.facebook.com/ace.ninanmathew/" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+                 </div>
+                 <div class="icon">
+                  <a href="https://www.instagram.com/aceninanmathew/" target="_blank"><i class="fa-brands fa-instagram brands"></i></a> 
+                 </div>
+                 <div class="icon">
+                  <a href="https://x.com/?lang=en-in"><i class="fa-brands fa-twitter brands"></i></a>
+                 </div>
+                 <div class="icon">
+                  <a href="aceninanmathew@gmail.com" target="_blank"><i class="fa-solid fa-envelope brands"></i></a>
+                 </div>
+              </div>
+             </section>
+             <!-- Footer -->
+              <footer>
+                <p id="copyright">&copy; My Portfolio Website - September 2024, All Rights Reserved to &reg;<span id="ace"> Ace Ninan Mathew</span></p>
+                <div class="icon upArrow">
+                  <a href="#container" ><i class="fa-solid fa-angle-up brands"></i></a>
+                 </div>
+              </footer>
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>
